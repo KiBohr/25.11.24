@@ -1,0 +1,143 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: raleway;
+}
+
+/* : header */
+
+header{
+    height:76px;
+    /* background-color: bisque; */
+    font-family: raleway;
+    border-bottom: solid 1px #a8a7a735;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color:#666;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.logo:hover{
+    color:#333;
+}
+
+li a{
+    text-decoration: none;
+    color:#333;
+    padding-right: 80px ;
+    font-size: 12px;
+}
+
+li a:hover{
+    color:#337ab7;
+}
+
+li{
+    list-style: none;
+}
+
+/* : landingpage */
+
+#landingpage{
+    height:1000px;
+    width: 100%;
+    background-image: url(../img/wasser.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight:200;
+    color: white;
+    /* text-shadow: #b7b7b7 2px 1px; */
+    text-transform: capitalize;
+}
+
+h1 + p{
+    color:rgba(255, 255, 255, 0.624);
+    font-size: 16px;
+}
+
+#bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#b1, #b2{
+    height: 60px;
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#b1{
+    background-color:#745CF9;
+    border-color:#745CF9;
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 1px #745CF9;
+}
+
+#b1:hover{
+    background-color:#503faf;
+}
+
+
+#b2{
+    background-color:#735cf900;
+    border-color:#ffffff;
+    border-width: 1px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 1px white;
+}
+
+#b2:hover{
+    background-color: white;
+    color:#337ab7;
+}
+    
+
+
+
+
+
+
